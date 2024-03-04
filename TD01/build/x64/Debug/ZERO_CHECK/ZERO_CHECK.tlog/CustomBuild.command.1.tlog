@@ -1,0 +1,10 @@
+^C:\USERS\ANGEL\IMAC\PROGALGO2\TD01\BUILD\CMAKEFILES\0BC27BDD9C055256A0CB3D7AD1ADD972\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/angel/IMAC/PROGALGO2/TD01 -BC:/Users/angel/IMAC/PROGALGO2/TD01/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/angel/IMAC/PROGALGO2/TD01/build/TD08.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
