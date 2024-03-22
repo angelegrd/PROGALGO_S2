@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
-      La génération a démarré 08/03/2024 10:59:04.
+      La génération a démarré 15/03/2024 11:59:01.
       
       Projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\3.27.5\\CompilerIdC\\CompilerIdC.vcxproj" sur le noud 1 (cibles par défaut).
       PrepareForBuild:
@@ -52,7 +52,7 @@ events:
           0 Avertissement(s)
           0 Erreur(s)
       
-      Temps écoulé 00:00:03.42
+      Temps écoulé 00:00:01.02
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -78,7 +78,7 @@ events:
       The output was:
       0
       Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
-      La génération a démarré 08/03/2024 10:59:07.
+      La génération a démarré 15/03/2024 11:59:02.
       
       Projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\3.27.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" sur le noud 1 (cibles par défaut).
       PrepareForBuild:
@@ -106,7 +106,7 @@ events:
           0 Avertissement(s)
           0 Erreur(s)
       
-      Temps écoulé 00:00:02.46
+      Temps écoulé 00:00:00.78
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -125,8 +125,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-t7aiyy"
-      binary: "C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-t7aiyy"
+      source: "C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-x74jix"
+      binary: "C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-x74jix"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -134,39 +134,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-t7aiyy'
+        Change Dir: 'C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-x74jix'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_69035.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1db58.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
-        La génération a démarré 08/03/2024 10:59:11.
+        La génération a démarré 15/03/2024 11:59:03.
         
-        Projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7aiyy\\cmTC_69035.vcxproj" sur le noud 1 (cibles par défaut).
+        Projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x74jix\\cmTC_1db58.vcxproj" sur le noud 1 (cibles par défaut).
         PrepareForBuild:
-          Création du répertoire "cmTC_69035.dir\\Debug\\".
-          Création du répertoire "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7aiyy\\Debug\\".
-          Création du répertoire "cmTC_69035.dir\\Debug\\cmTC_69035.tlog\\".
+          Création du répertoire "cmTC_1db58.dir\\Debug\\".
+          Création du répertoire "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x74jix\\Debug\\".
+          Création du répertoire "cmTC_1db58.dir\\Debug\\cmTC_1db58.tlog\\".
         InitializeBuildStatus:
-          Création de "cmTC_69035.dir\\Debug\\cmTC_69035.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
-          Mise à jour de l'horodatage "cmTC_69035.dir\\Debug\\cmTC_69035.tlog\\unsuccessfulbuild".
+          Création de "cmTC_1db58.dir\\Debug\\cmTC_1db58.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_1db58.dir\\Debug\\cmTC_1db58.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69035.dir\\Debug\\\\" /Fd"cmTC_69035.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1db58.dir\\Debug\\\\" /Fd"cmTC_1db58.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
           Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32824 pour x64
           CMakeCCompilerABI.c
           Copyright (C) Microsoft Corporation. Tous droits réservés.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69035.dir\\Debug\\\\" /Fd"cmTC_69035.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1db58.dir\\Debug\\\\" /Fd"cmTC_1db58.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCCompilerABI.c"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7aiyy\\Debug\\cmTC_69035.exe" /INCREMENTAL /ILK:"cmTC_69035.dir\\Debug\\cmTC_69035.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-t7aiyy/Debug/cmTC_69035.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-t7aiyy/Debug/cmTC_69035.lib" /MACHINE:X64  /machine:x64 cmTC_69035.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_69035.vcxproj -> C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7aiyy\\Debug\\cmTC_69035.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x74jix\\Debug\\cmTC_1db58.exe" /INCREMENTAL /ILK:"cmTC_1db58.dir\\Debug\\cmTC_1db58.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-x74jix/Debug/cmTC_1db58.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-x74jix/Debug/cmTC_1db58.lib" /MACHINE:X64  /machine:x64 cmTC_1db58.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_1db58.vcxproj -> C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x74jix\\Debug\\cmTC_1db58.exe
         FinalizeBuildStatus:
-          Suppression du fichier "cmTC_69035.dir\\Debug\\cmTC_69035.tlog\\unsuccessfulbuild".
-          Mise à jour de l'horodatage "cmTC_69035.dir\\Debug\\cmTC_69035.tlog\\cmTC_69035.lastbuildstate".
-        Génération du projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-t7aiyy\\cmTC_69035.vcxproj" terminée (cibles par défaut).
+          Suppression du fichier "cmTC_1db58.dir\\Debug\\cmTC_1db58.tlog\\unsuccessfulbuild".
+          Mise à jour de l'horodatage "cmTC_1db58.dir\\Debug\\cmTC_1db58.tlog\\cmTC_1db58.lastbuildstate".
+        Génération du projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-x74jix\\cmTC_1db58.vcxproj" terminée (cibles par défaut).
         
         La génération a réussi.
             0 Avertissement(s)
             0 Erreur(s)
         
-        Temps écoulé 00:00:01.87
+        Temps écoulé 00:00:00.68
         
       exitCode: 0
   -
@@ -178,8 +178,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-dttbjt"
-      binary: "C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-dttbjt"
+      source: "C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-8we3o9"
+      binary: "C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-8we3o9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -187,39 +187,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-dttbjt'
+        Change Dir: 'C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-8we3o9'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ffe9e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_51c93.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Version MSBuild 17.7.2+d6990bcfa pour .NET Framework
-        La génération a démarré 08/03/2024 10:59:13.
+        La génération a démarré 15/03/2024 11:59:04.
         
-        Projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dttbjt\\cmTC_ffe9e.vcxproj" sur le noud 1 (cibles par défaut).
+        Projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8we3o9\\cmTC_51c93.vcxproj" sur le noud 1 (cibles par défaut).
         PrepareForBuild:
-          Création du répertoire "cmTC_ffe9e.dir\\Debug\\".
-          Création du répertoire "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dttbjt\\Debug\\".
-          Création du répertoire "cmTC_ffe9e.dir\\Debug\\cmTC_ffe9e.tlog\\".
+          Création du répertoire "cmTC_51c93.dir\\Debug\\".
+          Création du répertoire "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8we3o9\\Debug\\".
+          Création du répertoire "cmTC_51c93.dir\\Debug\\cmTC_51c93.tlog\\".
         InitializeBuildStatus:
-          Création de "cmTC_ffe9e.dir\\Debug\\cmTC_ffe9e.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
-          Mise à jour de l'horodatage "cmTC_ffe9e.dir\\Debug\\cmTC_ffe9e.tlog\\unsuccessfulbuild".
+          Création de "cmTC_51c93.dir\\Debug\\cmTC_51c93.tlog\\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+          Mise à jour de l'horodatage "cmTC_51c93.dir\\Debug\\cmTC_51c93.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ffe9e.dir\\Debug\\\\" /Fd"cmTC_ffe9e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_51c93.dir\\Debug\\\\" /Fd"cmTC_51c93.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilateur d'optimisation Microsoft (R) C/C++ version 19.37.32824 pour x64
           CMakeCXXCompilerABI.cpp
           Copyright (C) Microsoft Corporation. Tous droits réservés.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ffe9e.dir\\Debug\\\\" /Fd"cmTC_ffe9e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_51c93.dir\\Debug\\\\" /Fd"cmTC_51c93.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.27\\Modules\\CMakeCXXCompilerABI.cpp"
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dttbjt\\Debug\\cmTC_ffe9e.exe" /INCREMENTAL /ILK:"cmTC_ffe9e.dir\\Debug\\cmTC_ffe9e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-dttbjt/Debug/cmTC_ffe9e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-dttbjt/Debug/cmTC_ffe9e.lib" /MACHINE:X64  /machine:x64 cmTC_ffe9e.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_ffe9e.vcxproj -> C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dttbjt\\Debug\\cmTC_ffe9e.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8we3o9\\Debug\\cmTC_51c93.exe" /INCREMENTAL /ILK:"cmTC_51c93.dir\\Debug\\cmTC_51c93.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-8we3o9/Debug/cmTC_51c93.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/angel/IMAC/PROGALGO2/TD02/build/CMakeFiles/CMakeScratch/TryCompile-8we3o9/Debug/cmTC_51c93.lib" /MACHINE:X64  /machine:x64 cmTC_51c93.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_51c93.vcxproj -> C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8we3o9\\Debug\\cmTC_51c93.exe
         FinalizeBuildStatus:
-          Suppression du fichier "cmTC_ffe9e.dir\\Debug\\cmTC_ffe9e.tlog\\unsuccessfulbuild".
-          Mise à jour de l'horodatage "cmTC_ffe9e.dir\\Debug\\cmTC_ffe9e.tlog\\cmTC_ffe9e.lastbuildstate".
-        Génération du projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-dttbjt\\cmTC_ffe9e.vcxproj" terminée (cibles par défaut).
+          Suppression du fichier "cmTC_51c93.dir\\Debug\\cmTC_51c93.tlog\\unsuccessfulbuild".
+          Mise à jour de l'horodatage "cmTC_51c93.dir\\Debug\\cmTC_51c93.tlog\\cmTC_51c93.lastbuildstate".
+        Génération du projet "C:\\Users\\angel\\IMAC\\PROGALGO2\\TD02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-8we3o9\\cmTC_51c93.vcxproj" terminée (cibles par défaut).
         
         La génération a réussi.
             0 Avertissement(s)
             0 Erreur(s)
         
-        Temps écoulé 00:00:01.94
+        Temps écoulé 00:00:00.72
         
       exitCode: 0
 ...
