@@ -108,27 +108,6 @@ std::vector<Node const *> Node::prefixe() const
     return nodes;
 }
 
-std::vector<Node const *> Node::postfixe() const
-{
-    std::vector<Node const *> nodes;
-    if (!(this->is_leaf()))
-    {
-        if (this->left != nullptr)
-        {
-            auto left_nodes{this->left->postfixe()};
-            nodes.insert(nodes.end(), left_nodes.begin(), left_nodes.end());
-        }
-
-        if (this->right != nullptr)
-        {
-            auto right_nodes{this->right->postfixe()};
-            nodes.insert(nodes.end(), right_nodes.begin(), right_nodes.end());
-        }
-    }
-    nodes.push_back(this);
-    return nodes;
-}
-
 Node *&most_left(Node *&node)
 {
     if (node->left != nullptr)
@@ -215,27 +194,3 @@ int Node::max()
     return max;
 }
 
-int Node::min()
-{
-    std::vector<Node const *> getNodes{this->postfixe()};
-    int min{getNodes[0]->value};
-    for (int i{0}; i < getNodes.size(); i++)
-    {
-        if (min >= getNodes[i]->value){
-            min = getNodes[i]->value;
-        }
-    }
-    return min;
-
-}
-
-int Node::somme()
-{
-    std::vector<Node const *> getNodes{this->postfixe()};
-    int somme{0};
-    for (int i{0}; i < getNodes.size(); i++)
-    {
-        somme += getNodes[i]->value;
-    }
-    return somme;
-}

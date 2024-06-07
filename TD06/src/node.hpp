@@ -13,10 +13,7 @@ struct Node {
     void delete_childs();
     void display_infixe() const;
     std::vector<Node const *> prefixe() const;
-    std::vector<Node const *> postfixe() const;
     int max();
-    int min();
-    int somme();
 };
 
 Node* create_node(int value);

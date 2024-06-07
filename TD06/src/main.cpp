@@ -49,10 +49,6 @@ int main(){
     std::cout<< "Valeur max de l'arbre: " << std::endl;
     std::cout << arbre->max() << std::endl;
 
-    std::cout<< "Valeur min de l'arbre: " << std::endl;
-    std::cout << arbre->min() << std::endl;
-
-    std::cout << "Somme des valeurs de l'arbre: " << arbre->somme() << std::endl;
 
     std::cout << "Hauteur de l'arbre : " << arbre->height() << " apres la racine" << std::endl;
     return 0;
