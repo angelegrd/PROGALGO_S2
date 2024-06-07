@@ -13,6 +13,11 @@ int nbLettreFirstMot(std::string const & str){
     return compteur;
 }
 
+std::vector<std::string> split_string(std::string const& str){
+    
+};
+
+
 int main(){
 
     std::string const &phrase {"Nootlan NOOT NOOT"}; //attention il compte pas les accents
